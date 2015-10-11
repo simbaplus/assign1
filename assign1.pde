@@ -21,7 +21,7 @@ void setup () {
   
   //寶物隨機位置
   randomPlaceX=floor(random(width));
-  randomPlaceY=floor(random(width));
+  randomPlaceY=floor(random(height));
   randomBlood=floor(random(200));
 }
 

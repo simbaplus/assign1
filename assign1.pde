@@ -20,8 +20,8 @@ void setup () {
   backgroundImage2 = loadImage("img/bg2.png");
   
   //寶物隨機位置
-  randomPlaceX=floor(random(width));
-  randomPlaceY=floor(random(height));
+  randomPlaceX=floor(random(width-41));
+  randomPlaceY=floor(random(height-41));
   randomBlood=floor(random(200));
 }
 
